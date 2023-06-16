@@ -5,7 +5,7 @@ const obj = {
     direccion: "Independencia"
 }
 
-//console.log(obj)
+console.log(obj)
 
 const alumn = {
     nombre: "Juan Miguel",
@@ -13,7 +13,7 @@ const alumn = {
     promProgramacion: 8,
     promHtml: 7
 }
-//console.log(`Nombre del estudiante: ${alumn['nombre']} Promedio de notas: ${(alumn['promIngles']+alumn['promProgramacion']+alumn['promHtml'])/3}`)
+console.log(`Nombre del estudiante: ${alumn['nombre']} Promedio de notas: ${(alumn['promIngles']+alumn['promProgramacion']+alumn['promHtml'])/3}`)
 
 const vestido = {
     precio: 10000,
