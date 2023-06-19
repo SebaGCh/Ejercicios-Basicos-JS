@@ -32,4 +32,26 @@ let sumaArreglo = (arreglo) => {
 }
 //console.log(sumaArreglo([1,2,3]))
 
+/* Ejercicio #5
+Crear una función multiplicarArreglo() que tome como parámetro un arreglo de números, retornar la multiplicación del número menor del arreglo y el número mayor del arreglo. */
+let multiplicarArreglo = (arr) => {
+    let contador =1;
+    arr.forEach(element => contador *= element)
+    return contador
+}
+//console.log(multiplicarArreglo([2,2,2]))
 
+/* Ejercicio #6
+Crear una función con el nombre de booleanoArray() que tome dos arreglos de números como parámetro y que retorne un booleano, unir los dos arreglos en uno solo, si la longitud del nuevo arreglo es mayor o igual a 10 que retorne true si es menor a 10 que retorne false.
+ */
+
+let booleanoArray = (arr1, arr2) =>  arr1.concat(arr2).length >= 10 
+
+//console.log(booleanoArray( [4,10,4,3,4,5],[4,10,4,2]))
+
+/* Ejercicio #7
+Crear una función con el nombre de funcionArray() que tome dos arreglos de números enteros como parámetro y retornar un único arreglo, cada elemento del arreglo debe estar multiplicado por dos. ej: [2,5,2][1,5,3] -> [4,10,4,2,10,6]. */
+
+let funcionArray = (arr1, arr2) => arr1.concat(arr2).map(element => element * 2)
+
+console.log(funcionArray([2, 10, 20, 30],[1, 5, 10, 15]))
