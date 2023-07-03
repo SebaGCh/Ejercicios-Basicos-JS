@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas:    'titulo content'
+                            'contact content';
+}
+#titulo{
+    grid-area: titulo;
+    background-color: #EAEBEC;
+}
+#contact{
+    grid-area: contact;
+    background-color: #3b3a3b;
+}
+#content{
+    grid-area: content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+}
+#Conocimientos ul{
+    margin: 50px;
+}
+#contactame img{
+    height: 25px;
+}
+
