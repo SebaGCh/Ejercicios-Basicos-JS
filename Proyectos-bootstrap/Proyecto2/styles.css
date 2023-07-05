@@ -1,0 +1,19 @@
+.bgimage {
+    background: url('./assets/lario.jpg');
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+}
+
+.hero-text {
+    text-align: center;
+    width: 50%;
+    top: 50%;
+    background-color: white;
+    opacity: 80%;
+    margin-top: 50px;
+}
+
+#historiaPobla{
+    margin-top: 100px;
+}
